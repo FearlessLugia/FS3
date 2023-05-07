@@ -1,0 +1,16 @@
+# fly.toml app configuration file generated for blue-sea-9719 on 2023-05-07T16:15:11+08:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "blue-sea-9719"
+primary_region = "nrt"
+
+[env]
+  PORT = "8080"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true

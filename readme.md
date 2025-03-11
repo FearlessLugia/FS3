@@ -1,2 +1,3 @@
-# link on fly.io
-https://blue-sea-9719.fly.dev/
+# Full Stack Web Development (Part 3)
+
+My solution for Full Stack Web Development (Part 3) at the University of Helsinki
